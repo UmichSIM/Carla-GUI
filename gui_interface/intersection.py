@@ -187,7 +187,7 @@ class Ui_Form(QWidget):
 
         #spinbox for number of intersection
         self.spinBoxNumIntFro = QtWidgets.QSpinBox(self.widget1Fro)
-        self.spinBoxNumIntFro.setGeometry(QtCore.QRect(350, 392, 60, 20))
+        self.spinBoxNumIntFro.setGeometry(QtCore.QRect(370, 392, 60, 20))
         self.spinBoxNumIntFro.setMinimumSize(QtCore.QSize(60, 20))
         self.spinBoxNumIntFro.setMaximumSize(QtCore.QSize(60, 20))
         self.spinBoxNumIntFro.setMinimum(1)
@@ -229,9 +229,9 @@ class Ui_Form(QWidget):
 
         #widget for 1st intersection part
         self.widget3Fro = QtWidgets.QWidget(self.widgetFrontAll)
-        self.widget3Fro.setMinimumSize(QtCore.QSize(110, 455))
-        self.widget3Fro.setMaximumSize(QtCore.QSize(110, 455))
-        self.widget3Fro.setObjectName("widget3Fro")\
+        self.widget3Fro.setMinimumSize(QtCore.QSize(110, 455)) 
+        self.widget3Fro.setMaximumSize(QtCore.QSize(110, 455)) 
+        self.widget3Fro.setObjectName("widget3Fro")
         
         #1st intersection's button
         self.Int1Fro = QtWidgets.QPushButton(self.widget3Fro)
@@ -370,7 +370,7 @@ class Ui_Form(QWidget):
         self.Pic4Fro.raise_()
         self.Int4Fro.raise_()
         self.horizontalLayoutFront.addWidget(self.widget6Fro)
-
+        
         #widget for 5th intersection part
         self.widget7Fro = QtWidgets.QWidget(self.widgetFrontAll)
         self.widget7Fro.setMinimumSize(QtCore.QSize(110, 455))
@@ -1217,8 +1217,8 @@ class Ui_Form(QWidget):
         self.Int2Fro.setText(_translate("Form", "2"))
         self.Int3Fro.setText(_translate("Form", "3"))
         self.Int4Fro.setText(_translate("Form", "4"))
-        self.Int5Fro.setText(_translate("Form", "5"))
-        self.Int6Fro.setText(_translate("Form", "6"))
+        # self.Int5Fro.setText(_translate("Form", "5"))
+        # self.Int6Fro.setText(_translate("Form", "6"))
         #Intersection Translate 
 
         self.setWindowTitle(_translate("Form", "Form"))
